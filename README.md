@@ -2,6 +2,7 @@
 
 ## Requerimientos
 Diseñe, construya y despliegue los siguientes servicios en un microcontenedor docker desplegado en una instancei a EC2 de AWS. Cada estudiante debe seleccionar para desarrollar dos funciones matemáticas de acuerdo a los dos últimos dígitos de su cédula como se especifica en la lista. Todas las funciones reciben un solo parámetro de tipo "Double" y retornan una prámetro sde tipo "Double".
+
 0. log
 1. ln
 2. sin
@@ -54,26 +55,28 @@ mvn package
 
 ### Docker
 
-Como local utilizando Docker, calculo el ArcoTangente del numero que ingrese 
-http://localhost:8000/atan?value=90.
-
- ![](/Imagenes/1.PNG)
-
 Como local utilizando Docker, calculo el logaritmo del numero que ingrese 
 http://localhost:8000/log?value=50. 
 
 
  ![](/Imagenes/2.PNG)
 
+
+Como local utilizando Docker, calculo el arcotangente del numero que ingrese 
+http://localhost:8000/atan?value=90.
+
+ ![](/Imagenes/1.PNG)
+
+
 ### AWS
-
-Para comprobar que la página web ha sido desplegada con éxito utilizando AWS, y calcular el ArcoTangente 
-http://ec2-34-207-91-63.compute-1.amazonaws.com:8000/atan?value=90
-![](/Imagenes/3.png)
-
-Para comprobar que la página web ha sido desplegada con éxito utilizando AWS, y calcular el Logaritmo 
+Para comprobar que la página web ha sido desplegada con éxito utilizando AWS, y calcular el logaritmo 
 http://ec2-34-207-91-63.compute-1.amazonaws.com:8000/log?value=50
 ![](/Imagenes/4.png)
+
+
+Para comprobar que la página web ha sido desplegada con éxito utilizando AWS, y calcular el arcotangente 
+http://ec2-34-207-91-63.compute-1.amazonaws.com:8000/atan?value=90
+![](/Imagenes/3.png)
 
 
 
