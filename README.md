@@ -69,11 +69,11 @@ http://localhost:8000/log?value=50.
 
 Para comprobar que la página web ha sido desplegada con éxito utilizando AWS, y calcular el ArcoTangente 
 http://ec2-34-207-91-63.compute-1.amazonaws.com:8000/atan?value=90
-![](/Imagenes/3.PNG)
+![](/Imagenes/3.png)
 
 Para comprobar que la página web ha sido desplegada con éxito utilizando AWS, y calcular el Logaritmo 
 http://ec2-34-207-91-63.compute-1.amazonaws.com:8000/log?value=50
-![](/Imagenes/4.PNG)
+![](/Imagenes/4.png)
 
 
 
